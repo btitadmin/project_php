@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://localhost:3000/login.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Login Form</title>
+    <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-form {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+        .login-form h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .login-form .form-control {
+            border-radius: 20px;
+        }
+        .login-form .btn-primary {
+            border-radius: 20px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <h2>Login</h2>
+        <form action="http://localhost:3000/login.php" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="username" name="username" required="">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" required="">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+    <script src="./index_files/jquery-3.5.1.slim.min.js.download"></script>
+    <script src="./index_files/popper.min.js.download"></script>
+    <script src="./index_files/bootstrap.min.js.download"></script>
+
+
+</body></html>
