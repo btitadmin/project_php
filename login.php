@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($result->num_rows > 0) {
         $_SESSION['username'] = $username;
-        header("Location: dashboard.php");
+        header("Location: index2.php");
     } else {
         echo "Invalid username or password";
     }
