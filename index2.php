@@ -61,7 +61,7 @@ if (!isset($_SESSION['username'])) {
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="dashboard.php">Home</a>
+                    <a class="nav-link active" href="index2.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="shop.php">Shop</a>
@@ -76,7 +76,7 @@ if (!isset($_SESSION['username'])) {
             <span class="navbar-text">
                 Welcome, <?php echo $_SESSION['username']; ?>
             </span>
-            <a href="logout.php" class="btn btn-danger ml-2">Logout</a>
+            <a href="index3.php" class="btn btn-danger ml-2">Logout</a>
         </div>
     </nav>
     <div class="container">
